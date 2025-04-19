@@ -10,7 +10,7 @@ type Position = {
 };
 
 export default function Loves() {
-  const rows = 13;
+  const rows = 12;
   const cols = 76; // Increased column count to fit the longer text
   const [snake, setSnake] = useState<Position[]>([]);
   const [completedCells, setCompletedCells] = useState<Position[]>([]);
@@ -22,13 +22,13 @@ export default function Loves() {
     () => [
       // I shape
       [
-        { row: 3, col: 3 },
-        { row: 4, col: 3 },
-        { row: 5, col: 3 },
-        { row: 6, col: 3 },
-        { row: 7, col: 3 },
-        { row: 8, col: 3 },
-        { row: 9, col: 3 },
+        { row: 3, col: 4 },
+        { row: 4, col: 4 },
+        { row: 5, col: 4 },
+        { row: 6, col: 4 },
+        { row: 7, col: 4 },
+        { row: 8, col: 4 },
+        { row: 9, col: 4 },
       ],
 
       // L shape
